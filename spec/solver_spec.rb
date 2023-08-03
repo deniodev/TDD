@@ -21,4 +21,33 @@ describe Solver do
       expect(solver.reverse('ragan')).to eq('nagar')
     end
   end
+
+  describe '#fizzbuzz' do
+    it 'should return "fizz" when the number is divisible by 3' do
+      solver = Solver.new
+      expect(solver.fizzbuzz(6)).to eq('fizz')
+      expect(solver.fizzbuzz(12)).to eq('fizz')
+    end
+
+    it 'should return "buzz" when the number is divisible by 5' do
+      solver = Solver.new
+      expect(solver.fizzbuzz(25)).to eq('buzz')
+      expect(solver.fizzbuzz(80)).to eq('buzz')
+      expect(solver.fizzbuzz(50)).to eq('buzz')
+    end
+
+    it 'should return "fizzbuzz" when the number is divisible by both 3 and 5' do
+      solver = Solver.new
+      expect(solver.fizzbuzz(15)).to eq('fizzbuzz')
+      expect(solver.fizzbuzz(60)).to eq('fizzbuzz')
+      expect(solver.fizzbuzz(45)).to eq('fizzbuzz')
+    end
+
+    it 'should return the number as a string for any other case' do
+      solver = Solver.new
+      expect(solver.fizzbuzz(4)).to eq('4')
+      expect(solver.fizzbuzz(8)).to eq('8')
+      expect(solver.fizzbuzz(11)).to eq('11')
+    end
+  end
 end
