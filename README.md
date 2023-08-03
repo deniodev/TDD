@@ -114,7 +114,9 @@ rubocop -A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add more tests and methods.
+- [ ] Localization and Internationalization.
+- [ ] Continuous Integration and Deployment
+- [ ] Error Handling and Exception Handling
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
