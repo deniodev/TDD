@@ -114,7 +114,7 @@ rubocop -A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add different structure
+- [ ] Add more tests and methods.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
