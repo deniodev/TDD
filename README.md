@@ -105,8 +105,8 @@ rubocop -A
 
 👤 **Denio Nhanale**
 
-- GitHub: [ragan](https://github.com/deniodev)
-- LinkedIn: [Ragan Hailu](https://linkedin.com/in/denionhanale)
+- GitHub: [Denio Nhanale](https://github.com/deniodev)
+- LinkedIn: [Denio Nhanale](https://linkedin.com/in/denionhanale)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
