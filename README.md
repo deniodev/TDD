@@ -31,7 +31,7 @@
 
 ## Key Features
 
-- Class functionality
+- Write unit tests using Rspec by doing test-driven development (TDD).
 
 <!-- GETTING STARTED -->
 
