@@ -91,7 +91,7 @@ To run tests for the linter, run the following command:
 Example command:
 
 ```sh
-rubocop -A
+rspec ./spec/solver_spec.rb
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
